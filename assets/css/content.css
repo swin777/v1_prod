@@ -327,6 +327,11 @@
 	.tab_box > li.on:first-child  {border-left:none;}
 	.tab_box > li.on > a { height:43px;color:#fff;font-weight:700;}
 
+	.tab_box2 {height: 43px;}
+	.tab_box2 > li {width:33.3%;float:left;text-align:center;padding-top:5px;height:40px;vertical-align:middle;border-left:1px solid #fff; background: #a1a3a2;box-sizing: border-box;}
+	.tab_box2 > li > a {display:block;margin:0;line-height:1;vertical-align:middle; font-size: 14px;color:#fff; line-height:32px;vertical-align:middle;}
+	.tab_box2 > li > a > span {color:#c83339;font-size:11px;}
+
 	.wrap_nav{padding: 0;}
 
 	/* gis_map_navigation_before.html �˻��� ����Ʈ*/
@@ -363,6 +368,20 @@
 	.result_list .list_address li a .pos_num:before{content: ''; position: absolute;width: 23px; height: 32px; top:-4px;left:0;background:url(../images/icon_numplate.png) -24px  no-repeat; z-index: -1;  }
 	.result_list .list_address li.on a .pos_num:before {background-position:0;}
 	.result_list .list_address li a.start_flag:after{content:''; position:absolute;width: 40px;height: 40px; top:40px;right:10px;background:url(../images/icon_flag_sta.png) no-repeat ; z-index: -1;}
+
+	.result_list2 {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:158px;left:0;right:0;bottom:0;}
+	.result_list2 .list_address li a{padding-bottom: 0; padding: 20px 5px 20px 40px;font-size:14px;}
+	.result_list2 .list_address li a .pos_num{width: 23px; height: 32px;color:#fff;font-size:12px;font-weight: 700;text-align:center;display:inline-block;}
+	.result_list2 .list_address li a .pos_num:before{content: ''; position: absolute;width: 23px; height: 32px; top:-4px;left:0;background:url(../images/icon_numplate.png) -24px  no-repeat; z-index: -1;  }
+	.result_list2 .list_address li.on a .pos_num:before {background-position:0;}
+	.result_list2 .list_address li a.start_flag:after{content:''; position:absolute;width: 40px;height: 40px; top:40px;right:10px;background:url(../images/icon_flag_sta.png) no-repeat ; z-index: -1;}
+
+	.result_list3 {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:254px;left:0;right:0;bottom:0;}
+	.result_list3 .list_address li a{padding-bottom: 0; padding: 20px 5px 20px 40px;font-size:14px;}
+	.result_list3 .list_address li a .pos_num{width: 23px; height: 32px;color:#fff;font-size:12px;font-weight: 700;text-align:center;display:inline-block;}
+	.result_list3 .list_address li a .pos_num:before{content: ''; position: absolute;width: 23px; height: 32px; top:-4px;left:0;background:url(../images/icon_numplate.png) -24px  no-repeat; z-index: -1;  }
+	.result_list3 .list_address li.on a .pos_num:before {background-position:0;}
+	.result_list3 .list_address li a.start_flag:after{content:''; position:absolute;width: 40px;height: 40px; top:40px;right:10px;background:url(../images/icon_flag_sta.png) no-repeat ; z-index: -1;}
 
 /* �˻��ڽ�*/
 .geo_box_h {position:Absolute;left:22px;top:22px;bottom:0;z-index:99;vertical-align:top;height:40px}
