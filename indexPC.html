@@ -2,16 +2,17 @@
 <!DOCTYPE html>
 <html class="no-js">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no">
 <head>
     <meta charset="UTF-8">
     <title>Geo master</title>
-    <link rel="icon" type="image/png" href="./assets/images/icon_32.png" />
-    <link href="./assets/css/style.css" rel="stylesheet" media="screen">
+    <link rel="icon" href="./assets/images/kt_favicon.ico">
+    <link href="./assets/css/style.css?v=3" rel="stylesheet" media="screen">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!--script type="text/javascript" src="https://gis.kt.com/maps/v3.0/sdk.js?key=df21e533e679ef05f19ab3e318085f629da782757fdc5c65d31bb6815687f18a61711750"></script-->
     <script type="text/javascript" src="https://api.ktgis.com:10083/v3/olleh/mapAPI.js?key=ODEwMEQ3ODk6VDc3RkM5N0I2OEM2RDA="></script>
-    <script type="text/javascript" src="./dist/bundle.1536309007107.js"></script>
+    <script type="text/javascript" src="./dist/bundle.1536716622823.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -84,7 +85,7 @@
                 <span class="seach_inp">
 					<input id="placeKeyword" type="text" title="검색어 입력해주세요" placeholder="검색어 입력해주세요" class="input_act" />
 					<span class="btn_search">
-						<img src="./assets/images/btn_search_b.gif" alt="검색">
+						<img src="./assets/images/btn_search_b.gif" alt="검색"  draggable="false">
 					</span>
                 </span>
                 <button class="btn_road">길찾기 전환 버튼</button>
@@ -97,7 +98,7 @@
                     <span class="seach_inp">
 						<input id="startKeyword" type="text" title="출발지가 어디신가요?" placeholder="출발지가 어디신가요?" class="input_act" />
 						<span class="btn_search start">
-							<img src="./assets/images/btn_search_g.png" alt="검색">
+							<img src="./assets/images/btn_search_g.png" alt="검색"  draggable="false">
 						</span>
                     </span>
                     <button class="btn_Gsearch">검색화면 전환 버튼</button>
@@ -108,7 +109,7 @@
                         <span class="seach_inp">
 							<input id="wp1Keyword" type="text" title="경유지가 어디신가요?" placeholder="경유지가 어디신가요?" class="input_act" />
 							<span class="btn_search wp1">
-								<img src="./assets/images/btn_search_g.png" alt="검색">
+								<img src="./assets/images/btn_search_g.png" alt="검색"  draggable="false">
 							</span>
                         </span>
                         <button class="btn_gclose"></button>
@@ -118,7 +119,7 @@
                         <span class="seach_inp">
 							<input id="wp2Keyword" type="text" title="경유지가 어디신가요?" placeholder="경유지가 어디신가요?" class="input_act" />
 							<span class="btn_search wp2">
-								<img src="./assets/images/btn_search_g.png" alt="검색">
+								<img src="./assets/images/btn_search_g.png" alt="검색"  draggable="false">
 							</span>
                         </span>
                         <button class="btn_gclose"></button>
@@ -128,7 +129,7 @@
                         <span class="seach_inp">
 							<input id="wp3Keyword" type="text" title="경유지가 어디신가요?" placeholder="경유지가 어디신가요?" class="input_act" />
 							<span class="btn_search wp3">
-								<img src="./assets/images/btn_search_g.png" alt="검색">
+								<img src="./assets/images/btn_search_g.png" alt="검색"  draggable="false">
 							</span>
                         </span>
                         <button class="btn_gclose"></button>
@@ -139,7 +140,7 @@
                     <span class="seach_inp">
 						<input id="endKeyword" type="text" title="도착지가 어디신가요?" placeholder="도착지가 어디신가요?" class="input_act" />
 						<span class="btn_search end">
-							<img src="./assets/images/btn_search_g.png" alt="검색">
+							<img src="./assets/images/btn_search_g.png" alt="검색"  draggable="false">
 						</span>
                     </span>
                     <button class="btn_gadd"></button>
@@ -321,7 +322,7 @@
                     <button class="cancel">취소</button>
                 </div>
                 <a href="javascript:void(0)" class="btn_rwhich">
-                    <img src="./assets/images/btn_layer_close.png" alt="닫기" />
+                    <img src="./assets/images/btn_layer_close.png" alt="닫기"  draggable="false"/>
                 </a>
             </div>
             <!-- //확대/축소 레이어  -->
@@ -332,7 +333,7 @@
                     <div class="wrap_dig">
                         <div>
                             <a href="javascript:void(0)" class="btn_option">
-                                <img src="./assets/images/btn_option.png" alt="지도 옵션" />
+                                <img src="./assets/images/btn_option.png" alt="지도 옵션"  draggable="false"/>
                             </a>
                             <div class="layer_rOpen">
                                 <ul>
@@ -388,29 +389,29 @@
 									</li> -->
                                 </ul>
                                 <a href="javascript:void(0)" class="btn_rOpen">
-                                    <img src="./assets/images/btn_layer_close.png" alt="닫기" />
+                                    <img src="./assets/images/btn_layer_close.png" alt="닫기"  draggable="false"/>
                                 </a>
                             </div>
                         </div>
 
                         <div class="mt15">
                             <a href="javascript:void(0)" class="btn_present">
-                                <img src="./assets/images/btn_position.png" alt="현재위치" />
+                                <img src="./assets/images/btn_position.png" alt="현재위치"  draggable="false"/>
                             </a>
                         </div>
 
                         <div class="mt10">
                             <a href="javascript:void(0)" class="btn_theme">
-                                <img id="themeSelectImg" src="./assets/images/btn_thema.png" alt="테마" style="width:36px;height:36px;"/>
+                                <img id="themeSelectImg" src="./assets/images/btn_thema.png" alt="테마" style="width:36px;height:36px;"  draggable="false"/>
                             </a>
                             <!-- 주변 레이어 -->
                             <div class="wrap_facilty">
                                 <a href="javascript:void(0)" class="close_facilty">
-                                    <img src="./assets/images/btn_layer_close.png" alt="닫기" />
+                                    <img src="./assets/images/btn_layer_close.png" alt="닫기"  draggable="false"/>
                                 </a>
                                 <div class="header_facilty">
                                     <span>
-										<img src="./assets/images/ico_weather01.png" alt="태양" />
+										<img src="./assets/images/ico_weather01.png" alt="태양"  draggable="false"/>
 										<strong>24.8</strong>
 									</span>
                                     <!-- 
@@ -436,25 +437,25 @@
                                     <ul>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_001">
-                                                <img src="./assets/images/ico_gas.jpg" alt="주유소" />
+                                                <img src="./assets/images/ico_gas.jpg" alt="주유소"  draggable="false"/>
                                                 <span>주유소</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_002">
-                                                <img src="./assets/images/ico_lpg.jpg" alt="LPG" />
+                                                <img src="./assets/images/ico_lpg.jpg" alt="LPG"  draggable="false"/>
                                                 <span>LPG</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_003">
-                                                <img src="./assets/images/ico_parking.jpg" alt="주차장" />
+                                                <img src="./assets/images/ico_parking.jpg" alt="주차장"  draggable="false"/>
                                                 <span>주차장</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_004">
-                                                <img src="./assets/images/ico_clean.jpg" alt="세차장" />
+                                                <img src="./assets/images/ico_clean.jpg" alt="세차장"  draggable="false"/>
                                                 <span>세차장</span>
                                             </a>
                                         </li>
@@ -462,25 +463,25 @@
                                     <ul>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_005">
-                                                <img src="./assets/images/ico_restaurant.jpg" alt="음식점" />
+                                                <img src="./assets/images/ico_restaurant.jpg" alt="음식점"  draggable="false"/>
                                                 <span>음식점</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_006">
-                                                <img src="./assets/images/ico_hotel.jpg" alt="숙박" />
+                                                <img src="./assets/images/ico_hotel.jpg" alt="숙박"  draggable="false"/>
                                                 <span>숙박</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_007">
-                                                <img src="./assets/images/ico_bank.jpg" alt="은행/ATM" />
+                                                <img src="./assets/images/ico_bank.jpg" alt="은행/ATM"  draggable="false"/>
                                                 <span>은행/ATM</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_008">
-                                                <img src="./assets/images/ico_mart.jpg" alt="대형마트" />
+                                                <img src="./assets/images/ico_mart.jpg" alt="대형마트"  draggable="false"/>
                                                 <span>대형마트</span>
                                             </a>
                                         </li>
@@ -488,25 +489,25 @@
                                     <ul>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_009">
-                                                <img src="./assets/images/ico_gro.jpg" alt="편의점" />
+                                                <img src="./assets/images/ico_gro.jpg" alt="편의점"  draggable="false"/>
                                                 <span>편의점</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_010">
-                                                <img src="./assets/images/ico_hospital.jpg" alt="병원" />
+                                                <img src="./assets/images/ico_hospital.jpg" alt="병원"  draggable="false"/>
                                                 <span>병원</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_011">
-                                                <img src="./assets/images/ico_pham.jpg" alt="약국" />
+                                                <img src="./assets/images/ico_pham.jpg" alt="약국"  draggable="false"/>
                                                 <span>약국</span>
                                             </a>
                                         </li>
                                         <li class="off">
                                             <a href="javascript:void(0)" class="themeByn" code="TM_012">
-                                                <img src="./assets/images/ico_toilet.jpg" alt="화장실" />
+                                                <img src="./assets/images/ico_toilet.jpg" alt="화장실"  draggable="false"/>
                                                 <span>화장실</span>
                                             </a>
                                         </li>
@@ -539,10 +540,13 @@
     <span class="routeByPoiDiv">
         <input id="routeByPoiInput" type="text" title="경로내 검색할 검색어를 입력해주세요" placeholder="경로내 검색할 검색어를 입력해주세요" class="input_act">
         <span class="btn_search">
-            <img id="routeByPoiExe" src="./assets/images/btn_search_b.gif" style="cursor:pointer" alt="검색">
-            <img id="routeByPoiClose" src="./assets/images/btn_close.gif" style="width:17px;height:18px;cursor:pointer" alt="닫기">
+            <img id="routeByPoiExe" src="./assets/images/btn_search_b.gif" style="cursor:pointer" alt="검색"  draggable="false">
+            <img id="routeByPoiClose" src="./assets/images/btn_close.gif" style="width:17px;height:18px;cursor:pointer" alt="닫기"  draggable="false">
         </span>
-        
     </span>
+	
+	<div class="routeIngMsg">
+        <p><em>길찾기 실행 중입니다.</em></p>
+    </div>
 </body>
 </html>

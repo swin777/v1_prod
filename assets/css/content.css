@@ -455,7 +455,7 @@
 .addressMsg p{padding: 8px 0 0 11px;color: #000;font-size: 11px;letter-spacing: -1px;white-space: nowrap;line-height: 0px;}
 .addressMsg p em{color: #1b90ff;}
 
-.routeByPoiDiv {z-index:999; text-align:left;display:none;position: absolute;left:396px;top:242px;width:310px;height: 40px;background-color:#fff;}
+.routeByPoiDiv {z-index:999; text-align:left;display:none;position: absolute;left:396px;top:277px;width:310px;height: 40px;background-color:#fff;}
 .routeByPoiDiv input{border: 1px solid #666;}
 .routeByPoiDiv .btn_search{right:0px; padding: 9px 8px 6px;}
 
@@ -536,3 +536,7 @@
 .grayBtn{background-color:#829382; border:1px solid #b2b2b2;width:49px;height:24px;line-height:22px;vertical-align:middle;font-weight:700;color:#fff;}
 
 input::-ms-clear {display: none;}
+
+.routeIngMsg {z-index:9999; display:none;position: absolute;left:396px;top:21px;width: 150px;height: 30px;border: 1px solid #737a83;background-color:#fff;}
+.routeIngMsg p{padding: 8px 0 0 11px;color: #000;font-size: 11px;letter-spacing: -1px;white-space: nowrap;line-height: 16px;}
+.routeIngMsg p em{color: #0000ff;}
