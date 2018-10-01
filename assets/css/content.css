@@ -399,7 +399,7 @@
 
 
 
-.seach_inp > input[type="text"] {width:290px;height:38px;border:none;vertical-align:top;}
+.seach_inp > input[type="text"] {width:230px;height:38px;border:none;vertical-align:top;}
 .btn_search {position:absolute;right:1px;top:3px;padding:9px 14px 6px;display:block;vertical-align:middle;z-index:100;}
 .btn_auto_toggle {position:absolute;right:34px;top:3px;padding:3px 4px 6px;display:block;vertical-align:middle;z-index:100;}
 .btn_all {width:40px;height:40px;float:left;text-indent:-990em;background:url(../images/btn_all_b.png) no-repeat center;border-right:1px solid #728aa2;}
@@ -411,7 +411,7 @@
 .btn_gadd  {display:inline-block;width:40px;height:40px;text-indent:-990em;background:url(../images/btn_add.png) no-repeat center;border-left:1px solid #728aa2;}
 .btn_Gsearch {display:inline-block;width:40px;height:40px;text-indent:-990em;background:url(../images/btn_Gsearch.png) no-repeat center;border-left:1px solid #728aa2;}
 
-.seach_inp {position:Relative;display:block;float:left;margin:0;height:38px;vertical-align:top;}
+.seach_inp {position:Relative;display:block;float:left;margin:0;height:38px;vertical-align:top; width:290px}
 
 .geo_intro {position:Absolute;right:98px;bottom:8px;padding:9px;background:#fff;border-radius:5px;}
 .geo_intro > a {display:inline-block;font-size:11px;font-weight:700;}
@@ -458,13 +458,18 @@
 .routeByPoiDiv {z-index:999; text-align:left;display:none;position: absolute;left:396px;top:277px;width:310px;height: 40px;background-color:#fff;}
 .routeByPoiDiv input{border: 1px solid #666;}
 .routeByPoiDiv .btn_search{right:0px; padding: 9px 8px 6px;}
-
+/*
 .wrap_inpbox {display:none;position:absolute;left:-1px;top:42px;width:100%;right:0px;padding:0 0 40px;min-height:230px;border:1px solid #728aa2;background:#fff;z-index:101;}
 .wrap_inpbox > a {display:block;padding:8px 13px 7px;color:#333333;font-size:14px;}
 .wrap_inpbox > a.on, 
 .wrap_inpbox > a:hover {background:#ededef;} 
 .wrap_inpbox > span {display:block;position:Absolute;padding:7px 10px 7px;bottom:0px;right:0;left:0;display:block;text-align:right;color:#666666;font-size:13px;background:#ededef;}
-
+*/
+.wrap_inpbox {display:none;position:absolute;left:-41px;top:42px;width:330px;right:0px;padding:0 0 40px;min-height:230px;border:1px solid #728aa2;background:#fff;z-index:101;}
+.wrap_inpbox > a {display:block;padding:8px 13px 7px;color:#333333;font-size:14px;}
+.wrap_inpbox > a.on, 
+.wrap_inpbox > a:hover {background:#ededef;} 
+.wrap_inpbox > span {display:block;position:Absolute;padding:7px 10px 7px;bottom:0px;right:0;left:0;display:block;text-align:right;color:#666666;font-size:13px;background:#ededef;}
 .box_sky {margin-top:10px;margin-right:10px;border:1px solid #44b1c6;background:#f6f6f6;}
 .box_sky > strong {display:inline-block;padding:15px 0 13px 18px;color:#666666;font-size:12px;background:url(../images/ico_redMark.png) no-repeat 10px center;}
 
@@ -518,9 +523,9 @@
 
 .ico_address {display:inline-block;padding-left:19px;background:url(../images/icon_now_position.png) no-repeat 4px center;}
 .ico_search {display:inline-block;padding-left:19px;background:url(../images/icon_now_search.png) no-repeat 4px center;}
-.ico_start {display:inline-block;padding-left:19px;background:url(../images/icon_now_start.png) no-repeat 4px 3px;font-size:12px;}
-.ico_end {display:inline-block;padding-left:19px;background:url(../images/icon_now_end.png) no-repeat 4px 3px;font-size:12px;}
-.ico_via {display:inline-block;padding-left:19px;background:url(../images/icon_now_via.png) no-repeat 4px 3px;font-size:12px;}
+.ico_start {display:inline-block;padding-left:19px;background:url(../images/icon_now_start.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
+.ico_end {display:inline-block;padding-left:19px;background:url(../images/icon_now_end.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
+.ico_via {display:inline-block;padding-left:19px;background:url(../images/icon_now_via.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
 .ico_comming {display:inline-block;width:83px;height:20px;text-indent:-990em;vertical-align:top;background:url(../images/ico_soon.png) no-repeat left top;}
 
 .pop_road {display:none;position:absolute;width:275px;padding:0px 12px 10px 20px;box-sizing:border-box;border:1px solid #324e69;background:#fff;z-index:1000;}
@@ -540,3 +545,5 @@ input::-ms-clear {display: none;}
 .routeIngMsg {z-index:9999; display:none;position: absolute;left:396px;top:21px;width: 150px;height: 30px;border: 1px solid #737a83;background-color:#fff;}
 .routeIngMsg p{padding: 8px 0 0 11px;color: #000;font-size: 11px;letter-spacing: -1px;white-space: nowrap;line-height: 16px;}
 .routeIngMsg p em{color: #0000ff;}
+
+.ollehmap-scale-control div{font-size: 12px;}
