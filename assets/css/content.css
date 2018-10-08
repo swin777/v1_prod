@@ -135,14 +135,14 @@
 .btn_share {position:Absolute;right:10px;top:0px;display:block;color:#;}
 .point01 {color:#c83339;}
 
-.search_Box {padding-bottom:5px;overflow:hidden;border-bottom:1px solid #c0c0c0;}
+.search_Box {padding-bottom:5px;overflow:hidden;border-bottom:1px solid #c0c0c0; background-color:#dddddd; border-top:1px solid #333333}
 .search_Box > span {display:block;margin-right:10px;margin-top:7px;float:right;}
 .search_Box > span > a {color:#959ba2;font-size:12px;}
 .search_Box > span > a:first-child {display:inline-block;padding:0 9px 0 11px;margin-right:10px;border-right:1px solid #c0c0c0;}
 .search_Box > span > a.on {font-weight:700;padding-left:11px;background:url(../images/ico_select.png) no-repeat left 5px;color:#333333;}
 .search_Box > select {width:69px;border:1px solid #b2b2b2;color:#666666;}
+.search_Box > span.title {display:block;margin-left:10px;margin-top:7px;float:left; font-weight: bold}
 
-.list_address {}
 .list_address > li {position:relative;border:1px solid #e7e7e7;min-height:122px;margin-top:5px;}
 .list_address > li > a {position:relative;display:block;padding:20px 8px 20px 40px; position: relative; z-index:1;font-size:14px;}
 .pos_num {position:absolute;left:10px;top:15px;width: 23px; height: 32px;color:#fff;font-size:12px; font-weight: 700;text-align:center;display:inline-block;}
@@ -364,7 +364,7 @@
 	.car_list .list_address li a.start_flag:after{content:''; position:absolute;width: 40px;height: 40px; top:40px;right:10px;background:url(../images/icon_flag_sta.png) no-repeat ; z-index: -1;}
 	.car_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:120px;left:0;right:0;bottom:0;}
 
-	.result_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:110px;left:0;right:0;bottom:0;}
+	.result_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:150px;left:0;right:0;bottom:0;}
 	.result_list .list_address li a{padding-bottom: 0; padding: 20px 5px 20px 40px;font-size:14px;}
 	.result_list .list_address li a .pos_num{width: 23px; height: 32px;color:#fff;font-size:12px;font-weight: 700;text-align:center;display:inline-block;}
 	.result_list .list_address li a .pos_num:before{content: ''; position: absolute;width: 23px; height: 32px; top:-4px;left:0;background:url(../images/icon_numplate.png) -24px  no-repeat; z-index: -1;  }
