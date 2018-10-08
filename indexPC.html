@@ -7,12 +7,12 @@
     <meta charset="UTF-8">
     <title>Geo master</title>
     <link rel="icon" href="./assets/images/kt_favicon.ico">
-    <link href="./assets/css/style.css?v=7" rel="stylesheet" media="screen">
+    <link href="./assets/css/style.css?v=8" rel="stylesheet" media="screen">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!--script type="text/javascript" src="https://gis.kt.com/maps/v3.0/sdk.js?key=df21e533e679ef05f19ab3e318085f629da782757fdc5c65d31bb6815687f18a61711750"></script-->
     <script type="text/javascript" src="https://api.ktgis.com:10083/v3/olleh/mapAPI.js?key=ODEwMEQ3ODk6VDc3RkM5N0I2OEM2RDA="></script>
-    <script type="text/javascript" src="./dist/bundle.1538643136714.js"></script>
+    <script type="text/javascript" src="./dist/bundle.1538982257685.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -83,7 +83,7 @@
             <div class="wrap_Gsearch" id="geo_box01">
                 <button class="btn_all btn_d">전체보기</button>
                 <span class="seach_inp">
-					<input id="placeKeyword" type="text" title="검색어 입력해주세요" placeholder="검색어 입력해주세요" class="input_act" />
+					<input id="placeKeyword" type="text" title="검색어 입력해주세요" placeholder="검색어 입력해주세요" class="input_act"/>
 					<span class="btn_search">
 						<img src="./assets/images/btn_search_b.gif" alt="검색"  draggable="false">
 					</span>
@@ -155,18 +155,14 @@
                 <div class="wrap_searchbox">
                     <button class="btn_open03"></button>
                     <ul class="tab_panel">
-                        <li class="on">
-                            <a href="">전체</a>
+                        <li id="p_all" class="placeTab on">
+                            <a href="javascript:void(0)">전체</a>
                         </li>
-                        <li>
-                            <a href="">버스
-								<br /> (coming soon)
-							</a>
+                        <li id="p_place" class="placeTab">
+                            <a href="javascript:void(0)">장소</a>
                         </li>
-                        <li>
-                            <a href="">정류장
-								<br /> (coming soon)
-							</a>
+                        <li id="p_address" class="placeTab">
+                            <a href="javascript:void(0)">주소</a>
                         </li>
                     </ul>
 
@@ -177,17 +173,20 @@
                             </p>
                             <a href="javascript:void(0)" id="placeClear" class="btn_clear">모두지우기</a>
                         </div>
-                        <div class="search_Box mt05">
+                        <div id="addressTitle" class="search_Box mt05">
+                            <span class="title">주소<strong id="addressCnt" class="point01"></strong></span>
+                        </div>
+                        <div id="addressList">
+                            <ul id="addressResult" class="list_address">
+                            </ul>
+                        </div>
+                        <div id="placeTitle" class="search_Box mt05">
+                            <span class="title">장소<strong id="onlyplaceCnt" class="point01"></strong></span>
                             <span>
 								<a href="javascript:void(0)" id="placeOrder1" class="on">관련도순</a>
 								<a href="javascript:void(0)" id="placeOrder2">거리순</a>
 							</span>
                         </div>
-                        <!-- <div class="txt_search pb10">
-						<strong>광화문지사</strong>
-						<a href="" class="btn_share"> 공유</a>
-					</div>
-					<div class="img_contents"><img src="./assets/images/img_contents.png" alt="사진정보" /> </div> -->
                         <div id="placeList" class="result_list">
                             <ul id="placeResult" class="list_address">
                             </ul>
@@ -525,12 +524,12 @@
                     </div>
                     <!-- //해상도 -->
                     <!--   텍스트 -->
-					<!--
+                    <!--
                     <div class="geo_intro">
                         <a href="javascript:void(0)">KT geo master 소개</a>
                         <a href="javascript:void(0)">공지사항</a>
                     </div>
-					-->
+                    -->
                     <!-- 텍스트 -->
                 </div>
             </div>
@@ -547,8 +546,8 @@
             <img id="routeByPoiClose" src="./assets/images/btn_close.gif" style="width:17px;height:18px;cursor:pointer" alt="닫기"  draggable="false">
         </span>
     </span>
-	
-	<div class="routeIngMsg">
+
+    <div class="routeIngMsg">
         <p><em>길찾기 실행 중입니다.</em></p>
     </div>
 </body>

@@ -523,16 +523,17 @@
 .btn_rOpen {position:Absolute;right:4px;top:5px;}
 .btn_rwhich {position:Absolute;right:4px;top:5px;}
 
-.ico_address {display:inline-block;padding-left:19px;background:url(../images/icon_now_position.png) no-repeat 4px center;}
-.ico_search {display:inline-block;padding-left:19px;background:url(../images/icon_now_search.png) no-repeat 4px center;}
-.ico_start {display:inline-block;padding-left:19px;background:url(../images/icon_now_start.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
-.ico_end {display:inline-block;padding-left:19px;background:url(../images/icon_now_end.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
-.ico_via {display:inline-block;padding-left:19px;background:url(../images/icon_now_via.png) no-repeat 4px 3px;font-size:12px; font-weight:bold;}
+.ico_address {display:inline-block;padding-left:19px;background:url(../images/icon_now_position.png) no-repeat 4px center;font-size:12px; font-weight:bold;}
+.ico_search {display:inline-block;padding-left:19px;background:url(../images/icon_now_search.png) no-repeat 4px center;font-size:12px; font-weight:bold;}
+.ico_start {display:inline-block;padding-left:19px;background:url(../images/icon_now_start.png) no-repeat 4px 3px;}
+.ico_end {display:inline-block;padding-left:19px;background:url(../images/icon_now_end.png) no-repeat 4px 3px;}
+.ico_via {display:inline-block;padding-left:19px;background:url(../images/icon_now_via.png) no-repeat 4px 3px;}
 .ico_comming {display:inline-block;width:83px;height:20px;text-indent:-990em;vertical-align:top;background:url(../images/ico_soon.png) no-repeat left top;}
-.line-through {text-decoration:line-through}
+/*.line-through {text-decoration:line-through}*/
+.line-through {font-weight:normal; color:#bbbbbb !important}
 
 .pop_road {display:none;position:absolute;width:275px;padding:0px 12px 10px 20px;box-sizing:border-box;border:1px solid #324e69;background:#fff;z-index:1000;}
-.pop_road > div {text-align:right;margin-top:;}
+.pop_road > div {text-align:right;margin-top:0px;}
 .pop_road > div > a {display:inline-block;}
 .pop_road > div > a:first-child {}
 .pop_road > span {display:block;position:Absolute;bottom:-13px;left:50%;margin-left:-8px;}
