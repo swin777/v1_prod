@@ -364,7 +364,7 @@
 	.car_list .list_address li a.start_flag:after{content:''; position:absolute;width: 40px;height: 40px; top:40px;right:10px;background:url(../images/icon_flag_sta.png) no-repeat ; z-index: -1;}
 	.car_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:120px;left:0;right:0;bottom:0;}
 
-	.result_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;top:150px;left:0;right:0;bottom:0;}
+	.result_list {padding:0 10px 30px;overflow-y:scroll;position:absolute;left:0;right:0;bottom:0;}
 	.result_list .list_address li a{padding-bottom: 0; padding: 20px 5px 20px 40px;font-size:14px;}
 	.result_list .list_address li a .pos_num{width: 23px; height: 32px;color:#fff;font-size:12px;font-weight: 700;text-align:center;display:inline-block;}
 	.result_list .list_address li a .pos_num:before{content: ''; position: absolute;width: 23px; height: 32px; top:-4px;left:0;background:url(../images/icon_numplate.png) -24px  no-repeat; z-index: -1;  }
